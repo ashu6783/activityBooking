@@ -1,5 +1,7 @@
 # Activity Booking App Backend
 
+### Note: Postman Collection is pushed in code itself.
+
 ## Overview
 
 This project is a REST API backend for a basic activity booking application, similar to MeetX use cases. It allows users to register, log in, browse available activities, book activities, view their bookings, and cancel bookings. The backend is built using Node.js with Express.js, uses MongoDB for data storage, and implements JWT-based authentication.
