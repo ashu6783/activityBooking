@@ -27,24 +27,25 @@ This project is a REST API backend for a basic activity booking application, sim
 
 ## Project Structure
 
-activity-booking-app/
-├── config/
-│   └── db.js              # MongoDB connection setup
-├── middleware/
-│   └── auth.js            # JWT authentication middleware
-├── models/
-│   ├── User.js            # User schema and model
-│   ├── Activity.js        # Activity schema and model
-│   └── Booking.js         # Booking schema and model
-├── routes/
-│   ├── auth.js            # Authentication routes (register, login)
-│   ├── activities.js      # Activity routes (list, create)
-│   └── bookings.js        # Booking routes (book, view, cancel)
-├── package.json           # Project dependencies and scripts
-├── index.js              # Main server entry point
-├── .env                   # Environment variables (MongoDB URI, JWT secret)
-├── postman_collection.json # Postman collection for API testing
-└── README.md              # Project documentation
+    ├── config/
+    │ └── db.js # MongoDB connection setup
+    ├── middleware/
+    │ └── auth.js # JWT authentication middleware
+    ├── models/
+    │ ├── User.js # User schema and model
+    │ ├── Activity.js # Activity schema and model
+    │ └── Booking.js # Booking schema and model
+    ├── routes/
+    │ ├── auth.js # Authentication routes (register, login)
+    │ ├── activities.js # Activity routes (list, create)
+    │ └── bookings.js # Booking routes (book, view, cancel)
+    ├── package.json # Project dependencies and scripts
+    ├── index.js # Main server entry point
+    --postman collection
+    ├── .env # Environment variables (MongoDB URI, JWT secret)
+    ├── postman_collection.json # Postman collection for API testing
+    └── README.md # Project documentation
+ 
 
 ---
 
@@ -106,6 +107,10 @@ API endpoints
     PORT=5000
 
 start server - npm run dev
+
+Postman collection is in codeblock
+
+
 
 
 
