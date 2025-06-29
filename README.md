@@ -1,6 +1,5 @@
 # Activity Booking App Backend
 
-### Note: Postman Collection is pushed in code itself.
 
 ## Overview
 
